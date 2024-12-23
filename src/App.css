@@ -1,0 +1,70 @@
+body {
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.buttons button {
+  width: 100%;
+  padding: 0.5 1rem;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.user-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-level {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-animal {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.animal-card {
+  width: 100px;
+  height: 50px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+}
+
+.animal-card > * {
+  flex: 1;
+}
+
+.user-animal .animal-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.reset {
+  background-color: red;
+}
